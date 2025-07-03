@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação Pessoal</title>
+    <style>
+        #conteiner{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #bloco-apresentacao {
+            width: 1000px;
+            height: 500px;
+            background-color: #9AEBA3;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        }
+
+
+
+        #imagem {
+            width: 500px;
+            height: 500px;
+        }
+
+                img {
+                 border-radius: 50%;
+                  width: 300px;
+                 height: 300px;
+                 margin: 100px auto;
+                 display: flex;
+                 object-fit: cover;
+        }
+
+        #rodape {
+            width: 1000px; /*rem - verificar usabilidade -1 rem = 16px*/
+            height: 100%;
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+            background-color: #9AEBA3;
+        }
+
+        </style>
+</head>
+<body>
+    <div id="conteiner">
+        <div id="bloco-apresentacao">
+            <div id="imagem"><img src="fotomatheus200.jpeg" alt=""></div>
+            <div id="texto">
+                <h1>Olá!</h1>
+                <h2>Um pouco sobre mim</h2>
+                <p>Texto Texto texto</p>
+                <button id="SobreMim">Sobre Mim</button> <!--Utilizar href ou tilizar tag sectioon-->
+                <button id="Carreira">Carreira</button>
+                <button id="Hobbies">Hobbies</button>
+                <button id="curiosidades">Curiosidades</button>
+            </div>        
+        </div>
+        <div id="rodape">
+            <div id="telefone">Telefone <br>(31) 99656-0297</div> 
+            <div id="email">Email <br>matheusgfs@outlook.com</div>
+            <div id="mesiga">Me siga <br>inserir icone linkedin e instagram</div>
+            <div id="politica">Colocar politica clicavel</div>
+        </div>
+    </div>
+</body>
+</html
